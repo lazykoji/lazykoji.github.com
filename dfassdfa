@@ -1,0 +1,242 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 5d4eeca..66d1979 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,19 +1,217 @@[m
+[31m-<!doctype html>[m
+[31m-<html>[m
+[31m-  <head>[m
+[31m-    <meta charset="utf-8">[m
+[31m-    <meta http-equiv="X-UA-Compatible" content="chrome=1">[m
+[31m-    <title>Lazykoji.GitHub.com by lazykoji</title>[m
+[31m-[m
+[31m-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>[m
+[31m-    <!--[endif]-->[m
+[31m-    <!--[if lt IE 8]>[m
+[31m-    <link rel="stylesheet" href="stylesheets/ie.css">[m
+[31m-    <![endif]-->[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">[m
+[31m-[m
+[31m-  </head>[m
+[31m-  <body>[m
+[31m-      <div>Hello lazykoji</div>[m
+[31m-  </body>[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html class="no-js">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m<meta charset="utf-8">[m
+[32m+[m[32m<meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m<title>KOJI LIU</title>[m
+[32m+[m[32m<meta name="description" content="">[m
+[32m+[m[32m<link rel="icon" href="favicon.ico" type="image/x-icon">[m
+[32m+[m[32m<meta name="viewport" content="width=device-width, initial-scale=1">[m
+[32m+[m[32m<meta property="og:title" content="KOJI LIU"/>[m
+[32m+[m[32m<meta property="og:type" content="website"/>[m
+[32m+[m[32m<meta property="og:url" content="https://googledrive.com/host/0B2OZ0razrTUFLTd4YkhiekZ5UHc/"/>[m
+[32m+[m[32m<meta property="og:image" content="img/fb.jpg"/>[m
+[32m+[m[32m<meta property="og:site_name" content="DaNote By KOJI LIU"/>[m
+[32m+[m[32m<meta property="og:description" content="I live in New Taipei, Taiwan. I started my career off as a Web designer and transitioned to front-end coding and interface design. Over the past 10 years I've been working at startups on web & mobile applications. I enjoy the fast paced environment and being able to help out on any part of a project from planning & marketing to design & coding."/>[m
+[32m+[m[32m<link rel="stylesheet" href="css/main.css">[m
+[32m+[m[32m<link rel="stylesheet" href="css/bootstrap.min.css">[m
+[32m+[m[32m<link rel="stylesheet" href="fonts/stylesheet.css">[m
+[32m+[m[32m<link href="css/flexslider.css" rel="stylesheet">[m
+[32m+[m[32m<link href="css/animations.css" rel="stylesheet">[m
+[32m+[m[32m<link rel="stylesheet" href="css/normalize.css">[m
+[32m+[m[32m<script src="js/vendor/modernizr-2.7.1.min.js"></script>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<!--[if lt IE 8]>[m
+[32m+[m[32m            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>[m
+[32m+[m[32m        <![endif]-->[m
+[32m+[m
+[32m+[m[32m<div class="koji">[m
+[32m+[m[32m  <header role="banner" class="navbar navbar-inverse bs-docs-nav css-animate menu navbar-fixed-top">[m
+[32m+[m[32m    <div class="navbar-header">[m
+[32m+[m[32m      <button data-target=".bs-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m    <!---->[m
+[32m+[m[32m    <nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">[m
+[32m+[m[32m      <div class="menu-holder" align="center">[m
+[32m+[m[32m        <ul class="nav navbar-nav navigation">[m
+[32m+[m[32m          <li class="scroll_animated_item" data-slide="1"> <a href="index.html#slide1" class="scroll">HOME</a> </li>[m
+[32m+[m[32m          <li class="scroll_animated_item" data-slide="2"> <a href="index.html#slide2" class="scroll">ABOUT</a> </li>[m
+[32m+[m[32m          <li class="scroll_animated_item" data-slide="3"> <a href="index.html#slide3" class="scroll">EXPERIENCE</a> </li>[m
+[32m+[m[32m          <li class="scroll_animated_item" data-slide="4"> <a href="index.html#work" class="scroll">THE WORK</a> </li>[m
+[32m+[m[32m          <li class="scroll_animated_item" data-slide="5"> <a href="index.html#slide5" class="scroll">CONTACT</a> </li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </nav>[m
+[32m+[m[32m  </header>[m
+[32m+[m[32m  <!--Home-->[m
+[32m+[m[32m  <section class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">[m
+[32m+[m[32m    <div class="row margin0">[m
+[32m+[m[32m      <div class="home-img">[m
+[32m+[m[32m        <div class="logo-holder">[m
+[32m+[m[32m          <div class="logo top" align="center"> <span class="logo-green">Hi</span>[m
+[32m+[m[32m            <div class="name">I'm Koji Liu</div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <h1 class="fade-in">Front-End Designer.</h1>[m
+[32m+[m[32m        <h2 class="bottomTotop">Think creatively.<span class="green"> Create continuously.</span></h2>[m
+[32m+[m[32m        <div class="dynamicscroll" id="mouseicon">[m
+[32m+[m[32m          <div class="mousescroll1 mouseanim one"></div>[m
+[32m+[m[32m          <div class="mousescroll2 mouseanim two"></div>[m
+[32m+[m[32m          <div class="mousescroll3 mouseanim three"></div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m  <!--Summery-->[m
+[32m+[m[32m  <section class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">[m
+[32m+[m[32m    <div class="hello-box">[m
+[32m+[m[32m      <div class="logo-holder logo-holder2">[m
+[32m+[m[32m        <div class="logo" align="center"> <span class="logo-green">K</span> </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <h1 class="second hello">Hello!<br>[m
+[32m+[m[32m        I'm Koji Liu.</h1>[m
+[32m+[m[32m      <h3>I live in New Taipei, Taiwan. I started my career off as a Web designer and transitioned to front-end coding and interface design. Over the past 10 years I've been working at startups on web & mobile applications. I enjoy the fast paced environment and being able to help out on any part of a project from planning & marketing to design & coding. </h3>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m  <!--Experience-->[m
+[32m+[m[32m  <section class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">[m
+[32m+[m[32m    <div class="container">[m
+[32m+[m[32m      <h1 class="exp">Experience</h1>[m
+[32m+[m[32m      <ul class="exp-list">[m
+[32m+[m[32m        <li><span>Project Manager</span>[m
+[32m+[m[32m          <h4>Nuusound International Limited</h4>[m
+[32m+[m[32m          <div class="exp-year">April 2012 – Present (2 years)Taiwan</div>[m
+[32m+[m[32m          Responsible for website design and planning Web Design and control project schedules Inter-sectoral coordination and assistance</li>[m
+[32m+[m[32m        <li><span>GUI Designer</span>[m
+[32m+[m[32m          <h4>Shih-Lien Digitla Infomation</h4>[m
+[32m+[m[32m          <div class="exp-year">January 2011 – February 2012 (1 year 2 months)Taiwan</div>[m
+[32m+[m[32m          Mobile App Design and modeling with optimization of UI.</li>[m
+[32m+[m[32m        <li><span>UI Designer</span>[m
+[32m+[m[32m          <h4>PCCenter Infomation</h4>[m
+[32m+[m[32m          <div class="exp-year"> January 2010 – December 2010 (1 year)Taiwan Taipei</div>[m
+[32m+[m[32m          Social web UI Design & optimzation</li>[m
+[32m+[m[32m        <li><span>Web Designer</span>[m
+[32m+[m[32m          <h4>Netdoing Technology</h4>[m
+[32m+[m[32m          <div class="exp-year">March 2008 – October 2009 (1 year 8 months)Taiwan</div>[m
+[32m+[m[32m          Web design & Front-end design</li>[m
+[32m+[m[32m        <li><span>Web Designer</span>[m
+[32m+[m[32m          <h4>OIDEA Co., Ltd.</h4>[m
+[32m+[m[32m          <div class="exp-year">February 2003 – November 2006 (3 years 10 months)Taiwan</div>[m
+[32m+[m[32m          Web design & Graphic design</li>[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m      <div align="center" class="download-cv"><a class="btn btn-large btn-primary btn-square" href="resume/koji.pdf" target="_blank"><i class="icon-download-alt"></i> Download CV</a></div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m  <!--Work-->[m
+[32m+[m[32m  <section class="slide scroll-section work block" id="work" data-slide="4" data-stellar-background-ratio="0.5">[m
+[32m+[m[32m    <div id="navigation">[m[41m [m
+[32m+[m[32m      <!--Work-->[m
+[32m+[m[32m      <div class="container padding0">[m
+[32m+[m[32m        <h1 class="works">Works</h1>[m
+[32m+[m[32m      </div>[m
+[32m+[m[41m      [m
+[32m+[m[32m      <!--worklist-->[m
+[32m+[m[41m      [m
+[32m+[m[32m      <ul class="work-list">[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m        <br>[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m  <!--Contact-->[m
+[32m+[m[32m  <section class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">[m
+[32m+[m[32m    <h1 class="thanks">Thanks</h1>[m
+[32m+[m[32m    <h3>Thank you very much for sharing it with me.[m
+[32m+[m[32m      Now drop me a line and let me learn something about you.</h3>[m
+[32m+[m[32m    <hr>[m
+[32m+[m[32m    <div class="email">Get in touch: <a href="mailto:lazykoji@gmail.com"><br>[m
+[32m+[m[32m      lazykoji@gmail.com</a></div>[m
+[32m+[m[32m    <div align="center" class="call-me">Call me: +886 975 635 080</div>[m
+[32m+[m[32m    <div class="text-center"> <a href="https://www.facebook.com/lazykoji" target="_blank"><span class="round-div"><span class="fb sprite"></span></span></a> <a href="https://twitter.com/lazykoji" target="_blank"><span class="round-div"><span class="twitter sprite"></span></span></a> <a href="http://tw.linkedin.com/pub/koji-liu/82/1b4/ab7" target="_blank"><span class="round-div"><span class="linkedin sprite"></span></span></a> </div>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m</div>[m
+[32m+[m[32m<script src="js/jquery.min.js"></script>[m[41m [m
+[32m+[m[32m<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>[m[41m [m
+[32m+[m[32m<script src="js/jquery-migrate-1.1.1.min.js"></script>[m[41m [m
+[32m+[m
+[32m+[m[32m<!--Plugins -->[m[41m [m
+[32m+[m[32m<script src="js/jquery.flexslider-min.js"></script>[m[41m [m
+[32m+[m[32m<script src="js/script.js"></script>[m[41m [m
+[32m+[m[32m<script>[m
+[32m+[m	[32m$('.scroll').click(function(e) {[m
+[32m+[m	[32me.preventDefault();[m
+[32m+[m		[32m$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);[m
+[32m+[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m	[32m $(window).scroll(function() {[m
+[32m+[m[41m		 [m
+[32m+[m[32m         if($(this).scrollTop()>50)[m
+[32m+[m	[32m {[m
+[32m+[m		[41m [m		[32m$('.menu').fadeIn();[m
+[32m+[m
+[32m+[m	[32m }[m
+[32m+[m[41m	   [m
+[32m+[m	[32m else[m
+[32m+[m	[32m {[m
+[32m+[m		[32m $('.menu').fadeOut();[m
+[32m+[m	[32m }[m
+[32m+[m	[32m  if($(this).scrollTop()>550)[m
+[32m+[m	[32m {[m
+[32m+[m		[41m [m		[32m$('.second').addClass('fade-in2');[m
+[32m+[m
+[32m+[m	[32m }[m
+[32m+[m	[32m  if($(this).scrollTop()>1000)[m
+[32m+[m	[32m {[m
+[32m+[m		[41m [m		[32m$('.exp').addClass('left-new');[m
+[32m+[m
+[32m+[m	[32m }[m
+[32m+[m	[32m  if($(this).scrollTop()>2000)[m
+[32m+[m	[32m {[m
+[32m+[m		[41m [m		[32m$('.works').addClass('left-new2');[m
+[32m+[m
+[32m+[m	[32m }[m
+[32m+[m	[32m if($(this).scrollTop()>2500)[m
+[32m+[m	[32m {[m
+[32m+[m		[41m [m		[32m$('.thanks').addClass('zoomIn');[m
+[32m+[m
+[32m+[m	[32m }[m
+[32m+[m[32m    });[m
+[32m+[m[32m    </script>[m[41m [m
+[32m+[m[32m<script>[m
+[32m+[m[32m$(document).ready(function(){[m
+[32m+[m[32m  $(".navbar-toggle").click(function(){[m
+[32m+[m[32m    $(".navbar-collapse").slideToggle();[m
+[32m+[m[32m  });[m
+[32m+[m[32m});[m
+[32m+[m[32m</script>[m
+[32m+[m[32m</body>[m
+ </html>[m
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
